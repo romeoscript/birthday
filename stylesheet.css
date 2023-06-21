@@ -7,6 +7,7 @@ body {
 	-ms-transition:background-color linear 5s;
 	transition:background-color linear 5s;
 	overflow-x:hidden;
+	height: 100vh!important;
 	
 }
 .container {
@@ -16,27 +17,25 @@ body {
 	
 	background-size: cover!important;
 	background-repeat: no-repeat!important;
-  /* background-position: center!important;
-  background-size: cover!important; */
   animation: backgroundAnimation 30s infinite!important;
 }
 
 
 @keyframes backgroundAnimation {
 	0%{
-		background:url(./aunty1.jpeg);
+		background: orange url(./aunty1.jpeg);
 	}
 	25%{
-		background:url(./aunty2.jpeg);
+		background: orange url(./aunty2.jpeg);
 	}
 	50%{
-		background:url(./aunty3.jpeg);
+		background: orange url(./aunty3.jpeg);
 	}
 	75%{
-		background:url(./aunty4.jpeg);
+		background:orange url(./aunty4.jpeg);
 	}
 	100%{
-		background:url(./aunty3.jpeg);
+		background:orange url(./aunty3.jpeg);
 	}
 }
 /* .peach-after {
@@ -47,92 +46,92 @@ body {
 	animation:peach_alive linear 8s infinite;
 } */
 
-@-webkit-keyframes peach_alive {
+@keyframes backgroundAnimation {
 	0%{
-		background:url(./aunty1.jpeg);
+		background: orange url(./aunty1.jpeg);
 	}
 	25%{
-		background:url(./aunty2.jpeg);
+		background: orange url(./aunty2.jpeg);
 	}
 	50%{
-		background:url(./aunty3.jpeg);
+		background: orange url(./aunty3.jpeg);
 	}
 	75%{
-		background:url(./aunty4.jpeg);
+		background:orange url(./aunty4.jpeg);
 	}
 	100%{
-		background:url(./aunty3.jpeg);
+		background:orange url(./aunty3.jpeg);
 	}
 }
-@-moz-keyframes peach_alive {
+@keyframes backgroundAnimation {
 	0%{
-		background:url(./aunty1.jpeg);
+		background: orange url(./aunty1.jpeg);
 	}
 	25%{
-		background:url(./aunty2.jpeg);
+		background: orange url(./aunty2.jpeg);
 	}
 	50%{
-		background:url(./aunty3.jpeg);
+		background: orange url(./aunty3.jpeg);
 	}
 	75%{
-		background:url(./aunty4.jpeg);
+		background:orange url(./aunty4.jpeg);
 	}
 	100%{
-		background:url(./aunty3.jpeg);
-	}
-}
-
-@-o-keyframes peach_alive {
-	0%{
-		background:url(./aunty1.jpeg);
-	}
-	25%{
-		background:url(./aunty2.jpeg);
-	}
-	50%{
-		background:url(./aunty3.jpeg);
-	}
-	75%{
-		background:url(./aunty4.jpeg);
-	}
-	100%{
-		background:url(./aunty3.jpeg);
+		background:orange url(./aunty3.jpeg);
 	}
 }
 
-@-ms-keyframes peach_alive {
+@keyframes backgroundAnimation {
 	0%{
-		background:url(./aunty1.jpeg);
+		background: orange url(./aunty1.jpeg);
 	}
 	25%{
-		background:url(./aunty2.jpeg);
+		background: orange url(./aunty2.jpeg);
 	}
 	50%{
-		background:url(./aunty3.jpeg);
+		background: orange url(./aunty3.jpeg);
 	}
 	75%{
-		background:url(./aunty4.jpeg);
+		background:orange url(./aunty4.jpeg);
 	}
 	100%{
-		background:url(./aunty3.jpeg);
+		background:orange url(./aunty3.jpeg);
 	}
 }
 
-@keyframes peach_alive {
+@keyframes backgroundAnimation {
 	0%{
-		background:url(./aunty1.jpeg);
+		background: orange url(./aunty1.jpeg);
 	}
 	25%{
-		background:url(./aunty2.jpeg);
+		background: orange url(./aunty2.jpeg);
 	}
 	50%{
-		background:url(./aunty3.jpeg);
+		background: orange url(./aunty3.jpeg);
 	}
 	75%{
-		background:url(./aunty4.jpeg);
+		background:orange url(./aunty4.jpeg);
 	}
 	100%{
-		background:url(./aunty3.jpeg);
+		background:orange url(./aunty3.jpeg);
+	}
+}
+
+@keyframes backgroundAnimation {
+	0%{
+		background: orange url(./aunty1.jpeg);
+	}
+	25%{
+		background: orange url(./aunty2.jpeg);
+	}
+	50%{
+		background: orange url(./aunty3.jpeg);
+	}
+	75%{
+		background:orange url(./aunty4.jpeg);
+	}
+	100%{
+		background:orange url(./aunty3.jpeg);
 	}
 }
 
