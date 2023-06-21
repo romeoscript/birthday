@@ -16,7 +16,8 @@ body {
 	
 	background-size: cover!important;
 	background-repeat: no-repeat!important;
-  background-position: center!important;
+  /* background-position: center!important;
+  background-size: cover!important; */
   animation: backgroundAnimation 30s infinite!important;
 }
 
